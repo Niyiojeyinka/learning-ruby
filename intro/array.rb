@@ -7,3 +7,7 @@ puts ("my name count is "+names.length.to_s)
 
 locations = ['lagos','osun']
 puts locations[0]
+
+interests[0]= 1
+
+puts interests[0]
