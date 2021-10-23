@@ -7,3 +7,6 @@ states = {
 }
 
 puts states['osun']
+puts states['lagos']
+
+ 
