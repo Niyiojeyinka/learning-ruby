@@ -16,3 +16,15 @@ puts countries[:name];
 
 people = Hash.new
 children ={}
+
+
+
+artists = {
+    1 => "sia",
+    2 => "davido",
+    3 => "Burna boy", 
+    4 => "Rae Stremund",
+    5 => "Wizkid"
+}
+# not available for symbol hashes
+puts artists[4]
