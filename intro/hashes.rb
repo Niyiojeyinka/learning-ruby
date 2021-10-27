@@ -6,4 +6,13 @@ states = {
     "oyo"=>"oy"
 }
 
+countries = {
+    :name => "Nigeria"
+}
 puts states['osun']
+puts countries[:name];
+
+#create empty hash {} Hash.new
+
+people = Hash.new
+children ={}
