@@ -28,3 +28,14 @@ artists = {
 }
 # not available for symbol hashes
 puts artists[4]
+
+
+book  = {
+  name: "The Journey",
+  color: "Blue"
+}
+
+puts book[:name]
+puts book[:color]
+
+
