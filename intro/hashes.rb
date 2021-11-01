@@ -9,4 +9,12 @@ states = {
 puts states['osun']
 puts states['lagos']
 
- 
+
+
+countries = {
+    ':ng'=>'Nigeria'
+}
+
+puts countries[':ng'];
+
+puts countries.has_key?(:ng)

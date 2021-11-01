@@ -12,3 +12,9 @@ end
 for index in 0..9
     puts index
 end
+
+#using the .each
+
+names.each do |name|
+    puts name
+end
