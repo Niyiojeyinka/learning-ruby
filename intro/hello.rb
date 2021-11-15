@@ -17,3 +17,11 @@ user_name = gets.chomp.to_s
 
 puts ("you entered "+user_name)
 puts "7".to_f
+
+
+
+def testSomething(x)
+    puts x
+end 
+
+testSomething "hey there"

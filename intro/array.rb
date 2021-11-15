@@ -23,3 +23,6 @@ posts =  Array[
 posts.each do |post|
     puts post['name']
 end
+interests[0]= 1
+
+puts interests[0]
