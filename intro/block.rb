@@ -31,3 +31,17 @@ sayHelloToVisitorParam("Philip") { |visitor| puts "welcome #{visitor}"}
 
 #multiple parameterized block
 #yeild x,y     |x,y| 
+
+#we can also define block using the following approach
+
+def test(&block)
+    block.call
+end
+
+test {puts "hey this is testing"} 
+
+
+#{} can be replace with do end in this scenario e.g
+
+test do puts "hey using do end here" 
+end
