@@ -45,3 +45,9 @@ test {puts "hey this is testing"}
 
 test do puts "hey using do end here" 
 end
+
+def testWithParameter(&block)
+    block.call '365days'
+end 
+
+testWithParameter {|param| puts "like most years ,this years is #{param}"}
