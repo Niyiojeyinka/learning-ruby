@@ -45,6 +45,7 @@ test {puts "hey this is testing"}
 
 test do puts "hey using do end here" 
 end
+# do ||
 
 def testWithParameter(&block)
     block.call '365days'

@@ -47,6 +47,8 @@ book  = {
   color: "Blue"
 }
 
+# ruby is smart enough to convert key to symbol
+
 puts book[:name]
 puts book[:color]
 
