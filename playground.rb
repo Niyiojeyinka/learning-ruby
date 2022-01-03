@@ -14,3 +14,13 @@ bmi = 45.0;
  age = 9 unless bmi < 1
 
  puts "last age value #{age}"
+
+
+
+ book  = {
+      "name" => "The Journey",
+      "color" => "Blue"
+    }
+
+
+    puts book["color"]
