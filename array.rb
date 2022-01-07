@@ -3,6 +3,7 @@ puts names[1];
 
 interests = Array.new;
 #initialise empty array
+
 puts ("my name count is "+names.length.to_s)
 
 locations = ['lagos','osun']

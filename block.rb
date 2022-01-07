@@ -1,3 +1,7 @@
+#only one block per method is allowed
+# in a multiple parameter function,ampersand must be last
+
+
 def sayHello
     puts "how far"
     yield
