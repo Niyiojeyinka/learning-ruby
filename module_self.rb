@@ -19,3 +19,4 @@ include Dog
 Dog.running
 
 # module can be include in a class and its method will be available for the class object to use
+# self is used to define static method as its called in other language (Method that doesn't need instantiation of its class)
