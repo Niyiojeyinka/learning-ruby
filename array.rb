@@ -27,3 +27,13 @@ end
 interests[0]= 1
 
 puts interests[0]
+
+
+#array can also e destructure as in js
+#e.g
+cars  = ["tesla","volvo","toyota"]
+
+first_car ,second_car = cars
+
+puts first_car
+puts second_car
